@@ -1,0 +1,65 @@
+baseURL = 'https://your-site-name.netlify.app/'
+languageCode = 'en-gb'
+title = 'Liberal Democrats - Local Division'
+theme = 'lybdems-theme'
+
+[params]
+  description = "Liberal Democrats - Local Division. Working for a fair, free and open society."
+  author = "Liberal Democrats"
+  partyColor = "#FDBB30"
+  partyBlue = "#003DA5"
+  
+[menu]
+  [[menu.main]]
+    identifier = "councils"
+    name = "Councils"
+    url = "#"
+    weight = 1
+    [[menu.main]]
+      identifier = "district-councillors"
+      name = "District Councillors"
+      url = "/councils/district/"
+      weight = 1
+      parent = "councils"
+    [[menu.main]]
+      identifier = "county-councillors"
+      name = "County Councillors"
+      url = "/councils/county/"
+      weight = 2
+      parent = "councils"
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 2
+  [[menu.main]]
+    identifier = "campaigns"
+    name = "Campaigns"
+    url = "/campaigns/"
+    weight = 3
+  [[menu.main]]
+    identifier = "get-involved"
+    name = "Get Involved"
+    url = "/get-involved/"
+    weight = 4
+  [[menu.main]]
+    identifier = "join"
+    name = "Join"
+    url = "/join/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Netlify optimization
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"
+    mediaType = "application/rss+xml"
+    isPlainText = true
+    notAlternative = true

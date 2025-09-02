@@ -1,0 +1,42 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo">
+                <a href="/">
+                    <h1>Liberal Democrats</h1>
+                    <span class="local-division">Local Division</span>
+                </a>
+            </div>
+            
+            <div class="header-actions">
+                <a href="https://libdems.my.salesforce-sites.com/DonationPage/donation/2302-donate" class="btn btn-donate">Donate</a>
+                <a href="/join/" class="btn btn-join">Join</a>
+            </div>
+        </div>
+        
+        <nav class="main-navigation">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu">
+                {{ range .Site.Menus.main }}
+                <li class="nav-item {{ if .HasChildren }}has-dropdown{{ end }}">
+                    <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+                    {{ if .HasChildren }}
+                    <ul class="dropdown-menu">
+                        {{ range .Children }}
+                        <li class="dropdown-item">
+                            <a href="{{ .URL }}" class="dropdown-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</header>
