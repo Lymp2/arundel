@@ -1,7 +1,7 @@
 ---
 title: "Local Councillors"
 description: "Meet our local councillors and learn about our work in the community"
-date: 2025-02-09
+date: 2025-02-09 
 ---
 
 Our local councillors work tirelessly to represent your interests and make our community a better place to live, work, and raise a family. We have representatives at both District and County Council levels.
