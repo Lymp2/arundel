@@ -50,5 +50,13 @@ As of January 2026, the political composition is:
 <br> 
 
 
-### Useful Links
-    - Your Councillors : https://westsussex.moderngov.co.uk/mgMemberIndex.aspx?bcr=1
+### Useful Links and Resources
+
+- [Horsham District Council](https://www.horsham.gov.uk/)
+- [Horsham planning dept](https://www.horsham.gov.uk/planning)
+- [County Meetings, Decisions etc](https://westsussex.moderngov.co.uk/uuCoverPage.aspx?bcr=1)
+- [Southwater Parish Council](https://www.southwater-pc.gov.uk/)
+- [FaceBook](https://www.facebook.com/ASDLibDems)
+- [Ed Davey](https://www.libdems.org.uk/mps/kingston-and-surbiton)
+- [Mark Pack](https://www.markpack.org.uk/) - LibDem peer; polling expert; president of the Liberal Democrats from 1 January 2020 until 31 December 2025.
+- [National Campaign Victories](https://www.libdems.org.uk/our-campaigns/victories): Solar energy; protection from domestic abuse; free school meals; support for carers; worker protection act; carers' leave act;Blocking a taxpayer payout to sewage-dumpers; Vagrancy Act repeal secured
