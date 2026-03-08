@@ -4,34 +4,81 @@ title = 'Liberal Democrats - Local Division'
 theme = 'lybdems-theme'
 
 [params]
-  description = "Liberal Democrats - Local Division. Working for a fair, free and open society."
+  description = "Liberal Democrats - Horsham. Working for a fair, free and open society."
   author = "Liberal Democrats"
   partyColor = "#FDBB30"
   partyBlue = "#003DA5"
   
 [menu]
   [[menu.main]]
+    identifier = "constituencies"
+    name = "Constituencies"
+    url = "#"
+    weight = 0
+    [[menu.main]]
+      identifier = "horsham"
+      name = "Horsham"
+      url = "/constituencies/horsham/"
+      weight = 1
+      parent = "constituencies"
+    [[menu.main]]
+      identifier = "arundel-and-south-downs"
+      name = "Arundel and South Downs"
+      url = "/constituencies/arundel-and-south-downs/"
+      weight = 2
+      parent = "constituencies"
+  [[menu.main]]
     identifier = "councils"
     name = "Councils"
     url = "#"
     weight = 1
     [[menu.main]]
+      identifier = "overview"
+      name = "Overview"
+      url = "/overview/"
+      weight = 0
+      parent = "councils"
+    [[menu.main]]
+      identifier = "councils-overview"
+      name = "Councils"
+      url = "/councils/"
+      weight = 1
+      parent = "councils"
+    [[menu.main]]
       identifier = "district-councillors"
       name = "District Councillors"
       url = "/councils/district/"
-      weight = 1
+      weight = 2
       parent = "councils"
     [[menu.main]]
       identifier = "county-councillors"
       name = "County Councillors"
       url = "/councils/county/"
-      weight = 2
+      weight = 3
       parent = "councils"
   [[menu.main]]
     identifier = "news"
     name = "News"
-    url = "/news/"
+    url = "#"
     weight = 2
+    [[menu.main]]
+      identifier = "horsham-news"
+      name = "Horsham News"
+      url = "/news/horsham/"
+      weight = 1
+      parent = "news"
+    [[menu.main]]
+      identifier = "national-news"
+      name = "National News"
+      url = "/news/national/"
+      weight = 2
+      parent = "news"
+    [[menu.main]]
+      identifier = "get-updates"
+      name = "Get Updates"
+      url = "/get-updates/"
+      weight = 3
+      parent = "news"
   [[menu.main]]
     identifier = "campaigns"
     name = "Campaigns"
@@ -40,14 +87,20 @@ theme = 'lybdems-theme'
   [[menu.main]]
     identifier = "get-involved"
     name = "Get Involved"
-    url = "/get-involved/"
+    url = "#"
     weight = 4
-  [[menu.main]]
-    identifier = "join"
-    name = "Join"
-    url = "/join/"
-    weight = 5
-
+    [[menu.main]]
+      identifier = "volunteer"
+      name = "Volunteer"
+      url = "/get-involved/"
+      weight = 1
+      parent = "get-involved"
+    [[menu.main]]
+      identifier = "local-party"
+      name = "Local Party"
+      url = "/local-party/"
+      weight = 3
+      parent = "get-involved"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

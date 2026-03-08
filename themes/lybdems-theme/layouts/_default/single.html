@@ -2,10 +2,17 @@
 <div class="container">
     <article class="single-content">
         <header class="content-header">
-            <h1>{{ .Title }}</h1>
-            {{ if .Date }}
-            <time class="date">{{ .Date.Format "2 January 2006" }}</time>
+            {{ if .Params.image }}
+            <div class="content-header-image">
+                <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+            </div>
             {{ end }}
+            <div class="content-header-text">
+                <h1>{{ .Title }}</h1>
+                {{ if .Date }}
+                <time class="date">{{ .Date.Format "2 January 2006" }}</time>
+                {{ end }}
+            </div>
         </header>
         
         <div class="content-body">

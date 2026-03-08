@@ -1,7 +1,7 @@
 ---
-title: "County Councillors"
-description: "Meet our County Council representatives and learn about their work on regional services and infrastructure"
-date: 2025-02-09
+title: "West Sussex County Councillors"
+description: "Meet our West Sussex County Council representatives"
+date: 2026-03-08
 ---
 
-Our County Councillors work at the regional level to represent your interests in education, social services, highways, and strategic planning. They ensure your voice is heard in county-wide decisions.
+Our County Councillors work at the regional level to represent your interests in education, social services, highways, and strategic planning. Clicking each councillor will take you to their contact details on the West Sussex County Council website.
