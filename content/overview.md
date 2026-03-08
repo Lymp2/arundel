@@ -36,9 +36,9 @@ At the local level, Horsham District Council is composed of elected councillors 
 
 Councillors of West Sussex County Council are 70 elected representatives, each serving one of 70 electoral divisions across the county, with each division representing approximately 12,000 residents. 
 
-As of January 2026, the political composition is:
+As of January 2026, the political composition is: 
 
-    - Conservative: 40 councillors
+    - Conservative: 40 councillors 
     - Liberal Democrat: 10
     - Labour: 9
     - Reform UK: 4
